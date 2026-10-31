@@ -102,6 +102,17 @@ class NoteCard extends StatelessWidget {
                       ),
                     ),
 
+                    const SizedBox(height: 7),
+
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 4),
+                      decoration: BoxDecoration(
+                        color: const Color(0xFFEDE5FA),
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text(note.category, style: const TextStyle(fontSize: 11, color: Color(0xFF6C4AB6), fontWeight: FontWeight.w600)),
+                    ),
+
                     const SizedBox(height: 8),
 
                     Text(
